@@ -3,13 +3,17 @@
     <div id="nav">
       <!-- <router-link to="/">Home</router-link> | -->
       <!-- <router-link to="/about">About</router-link> | -->
-      <router-link to="/myVue">MyVue</router-link>
+      <router-link to="/myVue">MyVue</router-link> | 
+      <router-link to="/SecondTust">SecondTust</router-link> | 
+      <router-link to="/TodoList">TodoList</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+@import '~materialize-css/dist/css/materialize.min.css';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

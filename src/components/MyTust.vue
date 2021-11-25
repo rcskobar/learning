@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div v-if="!AUTH">
       <h3>login</h3>
       <br />
@@ -27,7 +27,7 @@
           </thead>
           <tbody>
             <tr v-for="(company, key) in companys" :key="key">
-              <td>{{ key }}</td>
+              <td>{{ key+1 }}</td>
               <td>{{ company.name }}</td>
               <td>{{ company.inn }}</td>
             </tr>

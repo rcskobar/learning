@@ -22,6 +22,16 @@ const routes = [
     path: '/myVue',
     name: 'MyVue',
     component: () => import('../views/MyVue.vue')
+  },
+  {
+    path: "/SecondTust",
+    name: "SecondTust",
+    component: () => import("../components/SecondTust.vue")
+  },
+  {
+    path: "/TodoList",
+    name: "TodoList",
+    component: () => import("../components/TodoList.vue")
   }
 ]
 
